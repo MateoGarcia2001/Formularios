@@ -1,0 +1,143 @@
+body{
+	font-family: 'New Tegomin', serif;
+	background-image: url(../img/background-full.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: #f5f5f5; 
+	margin: 0;
+}
+h3{
+	text-align: center;
+}
+
+header{
+	background: #384C5C;
+	width: 100%;
+	opacity: 90%;
+}
+
+header .menu-contenedor{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-left: 32px;
+	margin-right: 32px;
+}
+
+header .menu-contenedor a{
+	font-size: 16px;
+	line-height: 50px;
+	padding: 2px 8px;
+    color: #ffffff;
+	text-decoration: none;
+
+}
+header .menu-contenedor img{
+	width: 67px;
+	height: 45px;
+}
+header a:hover{
+	color: orange;
+	text-decoration: none;
+}
+
+
+.contenedor{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 20px;
+	margin-left: 650px;
+	max-width: 100%;
+	width: 600px;
+	background: #ffffff;
+	opacity: 90%;
+	border: 1px solid #f5f5f5;
+	border-radius: 5px;
+	box-shadow: 3px 0px -5px black;
+	padding: 10px 30px 10px 30px;
+}
+
+.contenedor-form{
+	margin-top: 50px;
+}
+.contenedor-form div{
+	margin-top: 20px;
+}
+
+.contenedor-form button{
+
+	margin-top: 20px;
+	margin-left: 100px;
+	margin-bottom: 20px;
+
+}
+
+.contenedor--form {
+    display: none;
+    flex-direction: column;
+	max-width: 100%;
+	width: 600px;
+	background: #ffffff;
+	opacity: 90%;
+	border: 1px solid #f5f5f5;
+	border-radius: 5px;
+	box-shadow: 3px 0px -5px black;
+	padding: 10px 30px 10px 30px;
+}
+.form-group{
+	margin-top: 20px;
+	justify-content: left;
+}
+
+#bttn-2{
+	margin-bottom: 20px;
+	margin-top: 20px;
+	margin-left: 100PX;
+}
+.form__link {
+    color: #252c6a;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.form__link:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 480px) {
+
+header {
+flex-direction: column;
+justify-content: center;
+}
+header .menu-contenedor {
+flex-direction: column;
+margin: 0;
+text-align: center;
+}
+header .menu-contenedor a {
+margin: 0 0 0 0;
+}
+
+
+
+header .logo-contenedor {
+margin-left: 0;
+}
+
+
+
+header img{
+display: none;
+}
+
+
+.contenedor{
+margin-left: 0;
+}
+}
+
